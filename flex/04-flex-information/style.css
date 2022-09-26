@@ -13,14 +13,24 @@ img {
   display: flex;
   justify-content: center;
   margin-bottom: 32px;
+  flex-wrap: wrap;
 }
 
 .images{
   display: flex;
-  justify-content: center;
   flex-basis: 200px;
+  gap: 52px;
+  align-items: center
+  justify-content: center;
+  
 }
 
+.barberry, .chilli, .pepper, .saffron{
+text-align: center;
+gap: 52px;
+flex-wrap: wrap;
+justify-content: center;
+}
 
 /* do not edit this footer */
 .footer {
