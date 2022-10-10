@@ -36,20 +36,19 @@ a:link, a:visited, a:hover, a:active{
 .left-links{
   display: flex;
   gap: 15px;
+  padding-left: 15px;
 }
 .right-links{
   display: flex;
   gap: 15px;
+  padding-right: 15px;
 }
 .header{
   display: flex;
   justify-content: space-between;
+  padding-bottom: 60px;
 }
 
-img{
-  display: flex;
-  justify-content: center;
-}
 .input{
   display: flex;
   justify-content: center;
@@ -59,7 +58,8 @@ img{
   justify-content: center;
 }
 img{
-  display: block;
-  margin-left: auto;
+  display: block;  /*Keeps it in its own line*/
+  margin-left: auto; /*Centers the image left and right thru margins*/
   margin-right: auto;
+  padding-top: 80px;
 }
