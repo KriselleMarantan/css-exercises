@@ -30,6 +30,18 @@ ul{
 }
 
 a:link, a:visited, a:hover, a:active{
-  text-decoration:none;
-  color: darkslategray
+  text-decoration:none; /*took out underline for links*/
+  color: darkslategray /*Changed color of links to gray*/
+}
+.left-links{
+  display: flex;
+  gap: 15px;
+}
+.right-links{
+  display: flex;
+  gap: 15px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
 }
