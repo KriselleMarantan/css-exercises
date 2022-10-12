@@ -16,6 +16,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 5px; /*Added padding for button size*/ 
 }
 
 input {
@@ -56,6 +57,7 @@ a:link, a:visited, a:hover, a:active{
 .buttons{
   display: flex;
   justify-content: center;
+  gap: 5px;
 }
 img{
   display: block;  /*Keeps it in its own line*/
