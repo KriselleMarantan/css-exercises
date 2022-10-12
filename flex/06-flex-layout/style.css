@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -16,7 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 5px; /*Added padding for button size*/ 
+  padding: 5px; /*Added padding for button size*/
 }
 
 input {
@@ -58,10 +60,19 @@ a:link, a:visited, a:hover, a:active{
   display: flex;
   justify-content: center;
   gap: 5px;
+  padding-bottom: 60px;
 }
 img{
   display: block;  /*Keeps it in its own line*/
   margin-left: auto; /*Centers the image left and right thru margins*/
   margin-right: auto;
   padding-top: 80px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;  /*gives space between content & pushes the content to each side*/
+  margin-top: auto; /*gives me automated space from top */
+  background-color: #eee;
+  padding: auto;
 }
