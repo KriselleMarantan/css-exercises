@@ -2,6 +2,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column; /*pushes TOP to the bottom*/
+
 }
 
 .header {
@@ -20,6 +23,11 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  flex-shrink: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center; /*puts TOP in the center*/
+  margin-top: auto; /*Pushes the footer to the bottom*/
 }
 
 .sidebar {
