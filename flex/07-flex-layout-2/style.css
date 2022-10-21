@@ -4,7 +4,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column; /*pushes TOP to the bottom*/
-
 }
 
 .header {
@@ -23,20 +22,45 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
-  flex-shrink: auto;
+  flex-shrink: 0; /*will make the item not shrink or collapse*/
   display: flex;
-  align-items: center;
-  justify-content: center; /*puts TOP in the center*/
+  align-items: center; /*centers the text in the center vertically*/
+  justify-content: center; /*puts TOP in the center horizontally*/
   margin-top: auto; /*Pushes the footer to the bottom*/
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding-right: 16px;
+  flex-grow: 100%;
+  font-size: 24px;
 }
 
+a:link{ /*a:link is a class for links on website that are not clicked on*/
+  text-decoration: none; /*takes out underline on links*/
+  color: white;
+
+}
+a:visited{ /*class for links that are clicked on*/
+  text-decoration: none; 
+  color: white; /*changes color of link to white*/
+}
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+  padding-top: 16px;
+}
+
+.middle{
+  display: flex;
+  gap: 30px;
+  flex-grow: auto;
 }
