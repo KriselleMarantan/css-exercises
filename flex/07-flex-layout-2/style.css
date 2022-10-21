@@ -65,3 +65,7 @@ a:visited{ /*class for links that are clicked on*/
   gap: 30px;
   flex-grow: auto;
 }
+
+ul{
+  list-style-type: none;
+}
